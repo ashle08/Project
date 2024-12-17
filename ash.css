@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-family: Times New Roman;
+}
+header p{
+    font-family: Courier New;
+    text-align: center;
+}
+header nav a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.wallet-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wallet-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 255);
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.wallet-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.wallet-card h2 {
+    margin-top: 10px;
+    color: #333;
+    font-family: Palatino;
+}
+
+.wallet-card p {
+    color: #555;
+    font-family: Courier New;
+}
+.wallet-card a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
